@@ -13,6 +13,11 @@
 		811DB4911D703008000D7356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811DB48F1D703008000D7356 /* Main.storyboard */; };
 		811DB4931D703008000D7356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811DB4921D703008000D7356 /* Assets.xcassets */; };
 		811DB4961D703008000D7356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811DB4941D703008000D7356 /* LaunchScreen.storyboard */; };
+		811DB4A01D70303C000D7356 /* TextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB49F1D70303C000D7356 /* TextEditor.m */; };
+		811DB4A31D7030D0000D7356 /* Compiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB4A21D7030D0000D7356 /* Compiler.m */; };
+		811DB4A91D703257000D7356 /* ObjC_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB4A81D703257000D7356 /* ObjC_Runtime.m */; };
+		811DB4AC1D7032A6000D7356 /* XCodeFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB4AB1D7032A6000D7356 /* XCodeFacade.m */; };
+		811DB4AF1D703588000D7356 /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB4AE1D703588000D7356 /* Programmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		811DB4921D703008000D7356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811DB4951D703008000D7356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811DB4971D703008000D7356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811DB49E1D70303C000D7356 /* TextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditor.h; sourceTree = "<group>"; };
+		811DB49F1D70303C000D7356 /* TextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditor.m; sourceTree = "<group>"; };
+		811DB4A11D7030D0000D7356 /* Compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compiler.h; sourceTree = "<group>"; };
+		811DB4A21D7030D0000D7356 /* Compiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compiler.m; sourceTree = "<group>"; };
+		811DB4A71D703257000D7356 /* ObjC_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjC_Runtime.h; sourceTree = "<group>"; };
+		811DB4A81D703257000D7356 /* ObjC_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjC_Runtime.m; sourceTree = "<group>"; };
+		811DB4AA1D7032A6000D7356 /* XCodeFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCodeFacade.h; sourceTree = "<group>"; };
+		811DB4AB1D7032A6000D7356 /* XCodeFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCodeFacade.m; sourceTree = "<group>"; };
+		811DB4AD1D703588000D7356 /* Programmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
+		811DB4AE1D703588000D7356 /* Programmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 		811DB4851D703007000D7356 /* facade_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				811DB49D1D703014000D7356 /* Model */,
 				811DB4891D703008000D7356 /* AppDelegate.h */,
 				811DB48A1D703008000D7356 /* AppDelegate.m */,
 				811DB48C1D703008000D7356 /* ViewController.h */,
@@ -77,6 +93,23 @@
 				811DB4871D703008000D7356 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		811DB49D1D703014000D7356 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				811DB49E1D70303C000D7356 /* TextEditor.h */,
+				811DB49F1D70303C000D7356 /* TextEditor.m */,
+				811DB4A11D7030D0000D7356 /* Compiler.h */,
+				811DB4A21D7030D0000D7356 /* Compiler.m */,
+				811DB4A71D703257000D7356 /* ObjC_Runtime.h */,
+				811DB4A81D703257000D7356 /* ObjC_Runtime.m */,
+				811DB4AA1D7032A6000D7356 /* XCodeFacade.h */,
+				811DB4AB1D7032A6000D7356 /* XCodeFacade.m */,
+				811DB4AD1D703588000D7356 /* Programmer.h */,
+				811DB4AE1D703588000D7356 /* Programmer.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +185,11 @@
 				811DB48E1D703008000D7356 /* ViewController.m in Sources */,
 				811DB48B1D703008000D7356 /* AppDelegate.m in Sources */,
 				811DB4881D703008000D7356 /* main.m in Sources */,
+				811DB4AF1D703588000D7356 /* Programmer.m in Sources */,
+				811DB4A31D7030D0000D7356 /* Compiler.m in Sources */,
+				811DB4AC1D7032A6000D7356 /* XCodeFacade.m in Sources */,
+				811DB4A91D703257000D7356 /* ObjC_Runtime.m in Sources */,
+				811DB4A01D70303C000D7356 /* TextEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
