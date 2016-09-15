@@ -18,6 +18,7 @@
 		811DB4A91D703257000D7356 /* ObjC_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB4A81D703257000D7356 /* ObjC_Runtime.m */; };
 		811DB4AC1D7032A6000D7356 /* XCodeFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB4AB1D7032A6000D7356 /* XCodeFacade.m */; };
 		811DB4AF1D703588000D7356 /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB4AE1D703588000D7356 /* Programmer.m */; };
+		81FCF8241D8B105000A808BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 81FCF8231D8B105000A808BB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		811DB4AB1D7032A6000D7356 /* XCodeFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCodeFacade.m; sourceTree = "<group>"; };
 		811DB4AD1D703588000D7356 /* Programmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
 		811DB4AE1D703588000D7356 /* Programmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
+		81FCF8231D8B105000A808BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		811DB47A1D703007000D7356 = {
 			isa = PBXGroup;
 			children = (
+				81FCF8231D8B105000A808BB /* LICENSE */,
 				811DB4851D703007000D7356 /* facade_pattern */,
 				811DB4841D703007000D7356 /* Products */,
 			);
@@ -171,6 +174,7 @@
 			files = (
 				811DB4961D703008000D7356 /* LaunchScreen.storyboard in Resources */,
 				811DB4931D703008000D7356 /* Assets.xcassets in Resources */,
+				81FCF8241D8B105000A808BB /* LICENSE in Resources */,
 				811DB4911D703008000D7356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +344,7 @@
 				811DB49C1D703008000D7356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
